@@ -1,5 +1,5 @@
 resource "aws_security_group" "ec2forsecurity" {
-  name        = "load_balancer_security_group"
+  name        = "ec2forsecurity"
   description = "Controls access to the ALB"
   vpc_id      = aws_vpc.production-vpc.id
 
